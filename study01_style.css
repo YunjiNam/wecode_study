@@ -9,7 +9,9 @@
     grid-template: repeat(30, 1fr) / repeat(12, 1fr);
 }
 
-
+a {
+    text-decoration: none;
+}
 /* nav area */
 li a {
     text-decoration: none;

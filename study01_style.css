@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.grid {
+    display: grid;
+    width: 1600px;
+    height: 2000px;
+    grid-template: repeat(30, 1fr) / repeat(12, 1fr);
+}
+
+
+/* nav area */
+li a {
+    text-decoration: none;
+    color: #34558B;
+    font-family: "roboto";
+    font-weight: 500;
+    font-style: italic;
+}
+
+li {
+    display: inline-block;
+    padding: 8px 25px;
+}
+.header {
+    grid-area: 3 / 8 / 4 / 10;
+    margin-left: 160px;
+}
+
+
+/* title area */
+h1 {
+    padding: 20px;
+    font-family: "roboto";
+    font-size: 210px;
+    font-style: italic;
+    color: #34558B;
+}
+.text_img_box {
+    grid-area: 5 / 5 / 8 / 13;
+    font-family: "roboto";
+    font-size: 35px;
+    font-style: italic;
+    color: #ffffff;
+    text-shadow:-1px 0 #34558B,1px 0 #34558B,0 1px #34558B,-0 -1px #34558B;
+}
+.title {
+    grid-area: 3 / 2 / 5 / 13;
+}
+.emoji {
+    width: 250px;
+}
+.emoji1 {
+    grid-area: 7 / 8 / 8 / 9;
+}
+
+.emoji2 {
+    grid-area: 7 / 9 / 8 / 10;
+}
+.emoji3 {
+    grid-area: 7 / 10 / 8 / 11;
+}
+.emoji4 {
+    grid-area: 7 / 11 / 8 / 12;
+    margin-left: 10px;
+}
+
+
+/*profile area*/
+.introduce {
+    font-family: "roboto";
+    font-size: 60px;
+    font-style: italic;
+    color: #34558B;
+    grid-area: 10 / 1 / 20 / 13;
+}
+p a {
+    color: #ffffff;
+    text-shadow:-1px 0 #34558B,1px 0 #34558B,0 1px #34558B,-0 -1px #34558B;
+}
+.name:hover,.location:hover,.major:hover,.beer:hover,.place:hover,.coffee:hover,.pizza:hover,.insta:hover,.git:hover {
+    color: #34558B;
+    cursor: pointer;
+    text-shadow:0 0 #34558B,0 0 #34558B,0 0 #34558B,-0 0 #34558B;
+}
+

@@ -70,6 +70,14 @@ h1 {
 
 
 /*profile area*/
+
+.bigwave_img {
+    grid-area: 12 / 9 / 17 / 13;
+}
+.bigwave_img img {
+    width: 300px;
+    height: inherit;
+}
 .introduce {
     font-family: "roboto";
     font-size: 60px;
@@ -81,7 +89,7 @@ p a {
     color: #ffffff;
     text-shadow:-1px 0 #34558B,1px 0 #34558B,0 1px #34558B,-0 -1px #34558B;
 }
-.name:hover,.location:hover,.major:hover,.beer:hover,.place:hover,.coffee:hover,.pizza:hover,.insta:hover,.git:hover {
+.name:hover,.location:hover,.major:hover,.beer:hover,.place:hover,.movies:hover,.coffee:hover,.pizza:hover,.insta:hover,.git:hover {
     color: #34558B;
     cursor: pointer;
     text-shadow:0 0 #34558B,0 0 #34558B,0 0 #34558B,-0 0 #34558B;

@@ -86,14 +86,17 @@ h1 {
     color: #34558B;
     grid-area: 10 / 1 / 20 / 13;
 }
+.introduce p {
+    padding-left: 20px;
+}
 p a {
     color: #ffffff;
     text-shadow:-1px 0 #34558B,1px 0 #34558B,0 1px #34558B,-0 -1px #34558B;
 }
-.name:hover,.location:hover,.major:hover,.beer:hover,.place:hover,.movies:hover,.coffee:hover,.pizza:hover,.insta:hover,.git:hover {
-    color: #34558B;
+.name:hover,.location:hover,.major:hover,.beer:hover,.place:hover,.music:hover,.movies:hover,.coffee:hover,.pizza:hover,.insta:hover,.git:hover {
+    color: #ff8c00;
     cursor: pointer;
-    text-shadow:0 0 #34558B,0 0 #34558B,0 0 #34558B,-0 0 #34558B;
+    text-shadow:0 0 #ff8c00,0 0 #ff8c00,0 0 #ff8c00,0 0 #ff8c00;
 }
 
 .project_title {
@@ -109,34 +112,48 @@ p a {
     grid-area: 21 / 5 / 30 / 9;
     width: 300px;
     height: 400px;
-    border: 1px solid #34558B;
+    overflow: hidden;
+/*    border: 1px solid #34558B;*/
+/*
     transform: scale(1);
     transition: all 0.3s ease-in-out;
+*/
     margin-top: 50px;
-    cursor: pointer;
+/*    cursor: pointer;*/
 }
 .project_box2 {
     grid-area: 21 / 8 / 30 / 12;
     width: 300px;
     height: 400px;
-    border: 1px solid #34558B;
+/*    border: 1px solid #34558B;*/
     margin-left: 140px;
+    margin-top: 50px;
+/*
     transform: scale(1);
     transition: all 0.3s ease-in-out;
-    margin-top: 50px;
     cursor: pointer;
+*/
+    overflow: hidden;
 }
 .project_box3 {
     grid-area: 21 / 10 / 30 / 14;
     width: 300px;
     height: 400px;
-    border: 1px solid #34558B;
+    margin-top: 50px;
+/*    border: 1px solid #34558B;*/
+/*
     transform: scale(1);
     transition: all 0.3s ease-in-out;
-    margin-top: 50px;
+    cursor: pointer;
+*/
+    overflow: hidden;
+}
+.img_scale {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-.project_box1:hover, .project_box2:hover, .project_box3:hover {
+.img_scale:hover {
     transform: scale(1.05);
 }
 
